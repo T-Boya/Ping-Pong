@@ -7,8 +7,9 @@
         <title>PING PONG!</title>
         <link href = "IMG/icon.jpg" rel="icon" type="image/gif">
     </head>
-   <body scroll="no" style="overflow: hidden">  <!-- Prevents scrolling -->
-        <div class = "container fluid">
+   <!-- <body scroll="no" style="overflow: hidden">   -->
+       <body>Prevents user from scrolling
+        <div class = "container fluid background1">
             <!-- TITLE JUMBOTRON BEGINS -->
             <div class = "jumbotron PingPong">
                 <h1>Ping Pong!</h1>
@@ -28,11 +29,28 @@
             <!-- INSTRUCTIONS END -->
         </div>
         <div>
-                <form id="numberinput">
+                <form id="numberinput" href="#game">
                         <input type="text" id="number" placeholder = "Number">
                         <br>
-                        <button type="submit" class="bttn" id="submit">I'm Ready!</button>
+                        <a href="javascript:;" id="scrollToBottom"><button type="submit" class="bttn" id="submit">I'm Ready!</button></a>
+                        
                     </form>
         </div>
+    </div>
+        <!-- GAME BEGINS -->
+        <div class = "background2">
+            <div class = "container" >
+                
+                    <div class="row" id="ping">
+                        <div class="col-md-4"><div class="text-center"></div></div>
+                        <div class="col-md-1"><div class="text-center lead ping">ping</div></div>                        
+                        <div class="col-md-2"><div class="text-center number">1</div> </div>
+                        <div class="col-md-1"><div class="text-center lead pong">pong</div> </div>
+                        <div class="col-md-4"><div class="text-center"></div></div>
+                        
+                    </div>
+            </div>
+        <script type="text/javascript" src="../JS/scripts.js"></script>
+        <script type="text/javascript" src="../JS/jquery-3.3.1.js"></script>
     </body>
 </html>

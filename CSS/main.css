@@ -1,11 +1,12 @@
-/* BACKGROUND SETTINGS BEGIN */
-body {
+/* BACKGROUND1 SETTINGS BEGIN */
+.background1{
     background: url("../IMG/paddles.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left; 
     background-size: 70vh;
-
+    height: 100vh;
+    margin-left: 0;
 }
 /* BACKGROUND SETTINGS END */
 
@@ -38,20 +39,24 @@ text-align: left;
 /* NUMBER INPUT BOX SETTINGS BEGIN */
 #numberinput {
     position: absolute;
-    bottom: 7.5vh;
+    top: 77.5vh;
     left: 20vh;
 }
 .bttn {
     opacity: 0%;
-    margin-top: 1vh;
+    margin-top: 5vh;
+    margin-left: 55vh;
     background: none;
     padding: 1vh 1vh;
     border: 0.3vh solid #66451e;
     border-radius: 1vh;
     color: #462b19;
+    position: absolute;
+    width: 15vh;
 }
 #submit {
     margin-left: 5vh;
+    position: absolute;
 }
 
 #number {
@@ -61,7 +66,8 @@ text-align: left;
     background: rgba(179, 120, 32, 0);
     border: #66461e00;
     height: 10vh;
-    width: 10vh;
+    width: 12.5vh;
+    position: absolute;
 }
 
 #number:focus{
@@ -73,3 +79,29 @@ text-align: left;
     color: #422918;
  }
 /* NUMBER INPUT BOX SETTINGS END */
+.bottompadding{
+    padding-bottom: 40vh;
+}
+
+.background2 {
+    background: url("../IMG/game.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 0;
+    margin-top: 0;
+}
+.ping{
+    font-size: 10vh;
+}
+.pong{
+    font-size: 10vh;
+}
+.number {
+    font-size: 10vh;
+}
+#ping{
+    padding-top: 40vh;
+}
