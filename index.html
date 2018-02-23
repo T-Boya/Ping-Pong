@@ -7,8 +7,7 @@
         <title>PING PONG!</title>
         <link href = "IMG/icon.jpg" rel="icon" type="image/gif">
     </head>
-   <!-- <body scroll="no" style="overflow: hidden">   -->
-       <body>Prevents user from scrolling
+   <body scroll="no" style="overflow: hidden"> <!-- Prevents user from scrolling -->
         <div class = "container fluid background1">
             <!-- TITLE JUMBOTRON BEGINS -->
             <div class = "jumbotron PingPong">
@@ -20,7 +19,7 @@
             <!-- INSTRUCTIONS BEGIN -->
             <div class = "instructions">
                 <p>How to play:<br>
-                Write a number in the box on bottom left hand side of the page. All the numbers between 0 and that number will be printed out. Boring right? <strong>NOT! </strong>
+                Write a number in the box on bottom left hand side of the page then click on the arrow below it. All the numbers between 0 and that number will be printed out. Boring right? <strong>NOT! </strong>
                 <span class = "keyword">Numbers divisible by 3</span> are replaced with <span class = "keyword">"ping", </span><br>
                 <span class = "keyword">numbers divisibe by 5</span> are replaced with <span class = "keyword">"pong", </span><br>
                 best of all, <span class = "keyword">numbers divisible by 15</span> are replaced with <span class = "keyword">"pingpong"</span><br>
@@ -32,12 +31,12 @@
                 <form id="numberinput" href="#game">
                         <input type="text" id="number" placeholder = "Number">
                         <br>
-                        <a href="javascript:;" id="scrollToBottom"><button type="submit" class="bttn" id="submit">I'm Ready!</button></a>
-                        
+                        <a href="javascript:;" id="scrollToBottom"><button formaction="#section2" type="submit" class="bttn" id="submit"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></button></a>
                     </form>
         </div>
     </div>
         <!-- GAME BEGINS -->
+        <section id = "section2">
         <div class = "background2">
             <div class = "container" >
                 
@@ -47,10 +46,17 @@
                         <div class="col-md-2"><div class="text-center number">1</div> </div>
                         <div class="col-md-1"><div class="text-center lead pong">pong</div> </div>
                         <div class="col-md-4"><div class="text-center"></div></div>
-                        
                     </div>
+                    <div class = "playagain">
+                           <p>Press back to play again</p>
+                        </div>
             </div>
-        <script type="text/javascript" src="../JS/scripts.js"></script>
-        <script type="text/javascript" src="../JS/jquery-3.3.1.js"></script>
+        </section>
+        <!-- GAME ENDS -->
+
+        <!-- LINKS BEGIN -->
+        <script type="text/javascript" src="JS/scripts.js"></script>
+        <script type="text/javascript" src="JS/jquery-3.3.1.js"></script>
+        <!-- LINKS END -->
     </body>
 </html>

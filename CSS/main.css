@@ -1,4 +1,4 @@
-/* BACKGROUND1 SETTINGS BEGIN */
+/* BACKGROUND1 BEGINS */
 .background1{
     background: url("../IMG/paddles.jpg");
     background-repeat: no-repeat;
@@ -8,9 +8,9 @@
     height: 100vh;
     margin-left: 0;
 }
-/* BACKGROUND SETTINGS END */
+/* BACKGROUND ENDS */
 
-/* TITLE SETTINGS BEGIN */
+/* TITLE BEGINS */
 .PingPong {
     float: right;
     width: 90vh;
@@ -20,23 +20,23 @@
 .PingPong h2{
     margin-left: 5vh;
 }
-/* TITLE SETTINGS END */
+/* TITLE ENDS */
 
-/* INSTRUCTION SETTINGS BEGIN */
+/* INSTRUCTIONS BEGIN */
 .instructions{
-position: absolute;
-bottom: 10vh;
-right: 10vh;
-font-size: 3vh;
-max-width: 70vh;
-text-align: left;
+    position: absolute;
+    bottom: 10vh;
+    right: 10vh;
+    font-size: 3vh;
+    max-width: 70vh;
+    text-align: left;
 }
 .keyword {
     text-decoration: underline;
 }
-/* INSTRUCTION SETTINGS END */
+/* INSTRUCTIONS END */
 
-/* NUMBER INPUT BOX SETTINGS BEGIN */
+/* NUMBER INPUT BOX BEGINS */
 #numberinput {
     position: absolute;
     top: 77.5vh;
@@ -48,7 +48,7 @@ text-align: left;
     margin-left: 55vh;
     background: none;
     padding: 1vh 1vh;
-    border: 0.3vh solid #66451e;
+    border: 0.3vh solid #66461e00;
     border-radius: 1vh;
     color: #462b19;
     position: absolute;
@@ -78,11 +78,9 @@ text-align: left;
     text-align: center;
     color: #422918;
  }
-/* NUMBER INPUT BOX SETTINGS END */
-.bottompadding{
-    padding-bottom: 40vh;
-}
+/* NUMBER INPUT BOX ENDS */
 
+/* PING/PONG/1 PLACEMENT BEGINS */
 .background2 {
     background: url("../IMG/game.jpg");
     background-repeat: no-repeat;
@@ -105,3 +103,11 @@ text-align: left;
 #ping{
     padding-top: 40vh;
 }
+/* PING/PONG/1 PLACEMENT ENDS */
+
+/* PLAY AGAIN INSTRUCTIONS */
+.playagain{
+    font-size: 3vh;
+    max-width: 70vh;
+}
+/* PLAY AGAIN INSTRUCTIONS END */
