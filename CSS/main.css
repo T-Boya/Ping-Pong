@@ -1,0 +1,28 @@
+body {
+    background: url("../IMG/paddles.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left; 
+    background-size: 70vh;
+
+}
+.PingPong {
+    float: right;
+    width: 90vh;
+    background: white;
+
+}
+.PingPong h2{
+    margin-left: 5vh;
+}
+.instructions{
+position: absolute;
+bottom: 10vh;
+right: 10vh;
+font-size: 3vh;
+max-width: 70vh;
+text-align: left;
+}
+.keyword {
+    text-decoration: underline;
+}
