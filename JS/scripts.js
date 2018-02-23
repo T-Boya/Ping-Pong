@@ -16,3 +16,5 @@ $(document).ready(function(){
 // Scroll to Bottom Ends
 
 // Game Begins
+
+// Game Ends
