@@ -7,12 +7,16 @@
         <title>PING PONG!</title>
         <link href = "IMG/icon.jpg" rel="icon" type="image/gif">
     </head>
-    <body scroll="no" style="overflow: hidden">
+   <body scroll="no" style="overflow: hidden">  <!-- Prevents scrolling -->
         <div class = "container fluid">
+            <!-- TITLE JUMBOTRON BEGINS -->
             <div class = "jumbotron PingPong">
                 <h1>Ping Pong!</h1>
-                <h2>Let's play ping-pong, Moring style!</h2>
+                <h2>Let's play ping-pong, Moringa style!</h2>
             </div>
+            <!-- TITLE JUMBOTRON ENDS -->
+
+            <!-- INSTRUCTIONS BEGIN -->
             <div class = "instructions">
                 <p>How to play:<br>
                 Write a number in the box on bottom left hand side of the page. All the numbers between 0 and that number will be printed out. Boring right? <strong>NOT! </strong>
@@ -20,8 +24,15 @@
                 <span class = "keyword">numbers divisibe by 5</span> are replaced with <span class = "keyword">"pong", </span><br>
                 best of all, <span class = "keyword">numbers divisible by 15</span> are replaced with <span class = "keyword">"pingpong"</span><br>
                 Do you have what it takes to play our ping-pong?</p>
-
             </div>
+            <!-- INSTRUCTIONS END -->
+        </div>
+        <div>
+                <form id="numberinput">
+                        <input type="text" id="number" placeholder = "Number">
+                        <br>
+                        <button type="submit" class="bttn" id="submit">I'm Ready!</button>
+                    </form>
         </div>
     </body>
 </html>

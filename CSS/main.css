@@ -1,3 +1,4 @@
+/* BACKGROUND SETTINGS BEGIN */
 body {
     background: url("../IMG/paddles.jpg");
     background-repeat: no-repeat;
@@ -6,6 +7,9 @@ body {
     background-size: 70vh;
 
 }
+/* BACKGROUND SETTINGS END */
+
+/* TITLE SETTINGS BEGIN */
 .PingPong {
     float: right;
     width: 90vh;
@@ -15,6 +19,9 @@ body {
 .PingPong h2{
     margin-left: 5vh;
 }
+/* TITLE SETTINGS END */
+
+/* INSTRUCTION SETTINGS BEGIN */
 .instructions{
 position: absolute;
 bottom: 10vh;
@@ -26,3 +33,43 @@ text-align: left;
 .keyword {
     text-decoration: underline;
 }
+/* INSTRUCTION SETTINGS END */
+
+/* NUMBER INPUT BOX SETTINGS BEGIN */
+#numberinput {
+    position: absolute;
+    bottom: 7.5vh;
+    left: 20vh;
+}
+.bttn {
+    opacity: 0%;
+    margin-top: 1vh;
+    background: none;
+    padding: 1vh 1vh;
+    border: 0.3vh solid #66451e;
+    border-radius: 1vh;
+    color: #462b19;
+}
+#submit {
+    margin-left: 5vh;
+}
+
+#number {
+    margin-left: 6vh;
+    border-radius: 1vh;
+    text-align: center;
+    background: rgba(179, 120, 32, 0);
+    border: #66461e00;
+    height: 10vh;
+    width: 10vh;
+}
+
+#number:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: #422918;
+ }
+/* NUMBER INPUT BOX SETTINGS END */
