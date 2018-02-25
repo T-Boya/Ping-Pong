@@ -60,6 +60,7 @@
 }
 
 #number {
+    margin-top: -7vh;
     margin-left: 6vh;
     border-radius: 1vh;
     text-align: center;
@@ -68,6 +69,7 @@
     height: 10vh;
     width: 12.5vh;
     position: absolute;
+    font-size: 5vh;
 }
 
 #number:focus{

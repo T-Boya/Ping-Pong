@@ -29,9 +29,11 @@
         </div>
         <div>
                 <form id="numberinput" href="#game">
-                        <input type="text" id="number" placeholder = "Number">
+                        <input type="text" id="input" placeholder = "Number">
                         <br>
-                        <a href="javascript:;" id="scrollToBottom"><button formaction="#section2" type="submit" class="bttn" id="submit"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></button></a>
+                            <button formaction="#section2" type="submit" class="bttn" id="submit">
+                                <img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png">
+                            </button>
                     </form>
         </div>
     </div>
@@ -42,9 +44,9 @@
                 
                     <div class="row" id="ping">
                         <div class="col-md-4"><div class="text-center"></div></div>
-                        <div class="col-md-1"><div class="text-center lead ping"></div></div>                        
-                        <div class="col-md-2"><div class="text-center number"></div> </div>
-                        <div class="col-md-1"><div class="text-center lead pong"></div> </div>
+                        <div class="col-md-1"><div class="text-center lead" id = "ping"></div></div>                        
+                        <div class="col-md-2"><div class="text-center lead" id="number"></div> </div>
+                        <div class="col-md-1"><div class="text-center lead" id = "pong"></div> </div>
                         <div class="col-md-4"><div class="text-center"></div></div>
                     </div>
                     <div class = "playagain">
@@ -55,8 +57,8 @@
         <!-- GAME ENDS -->
 
         <!-- LINKS BEGIN -->
-        <script type="text/javascript" src="JS/scripts.js"></script>
         <script type="text/javascript" src="JS/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="JS/scripts.js"></script>
         <!-- LINKS END -->
     </body>
 </html>
