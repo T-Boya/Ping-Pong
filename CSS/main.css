@@ -37,12 +37,13 @@
 /* INSTRUCTIONS END */
 
 /* NUMBER INPUT BOX BEGINS */
-#numberinput {
+#submit{
     position: absolute;
     top: 77.5vh;
     left: 20vh;
 }
-.bttn {
+
+.button {
     opacity: 0%;
     margin-top: 5vh;
     margin-left: 55vh;
@@ -80,6 +81,17 @@
     text-align: center;
     color: #422918;
  }
+    #reset {
+    opacity: 0%;
+    margin-left: 3vh;
+    background: none;
+    padding: 1vh 1vh;
+    border: 0.3vh solid #020101;
+    border-radius: 1vh;
+    color: #050302;
+    position: absolute;
+    width: 15vh;
+}
 /* NUMBER INPUT BOX ENDS */
 
 /* PING/PONG/1 PLACEMENT BEGINS */
@@ -102,7 +114,7 @@
 .number {
     font-size: 10vh;
 }
-#ping{
+#row{
     padding-top: 40vh;
 }
 /* PING/PONG/1 PLACEMENT ENDS */
