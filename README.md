@@ -1,28 +1,34 @@
-# Tinashe Osewe 的乒乓球项目
+# Tinashe Osewe's Table Tennis Project
 
-## 创建日期
-星期五2018年2月23日
+## Description
+A table-tennis game. A number is written then all numbers between 0 and that number will be printed out. Boring right? NOT! Numbers divisible by 3 are replaced with "ping", numbers divisibe by 5 are replaced with "pong" and best of all, numbers divisible by 15 are replaced with "ping-pong."
 
-## 主机
-Github 页
+## Date Created
+Friday February 23, 2018
 
-## 用
-HTML、CSS 和引导 |JQUERY 和 Javascript
+## Host
+Github page
 
-## 版本
-1。0
+## Created With
+HTML, CSS, and Bootstrap | JQUERY and Javascript
 
-## 授权
-没有
+## Version
+1.0
 
-## 作者
+## Licensing
+None
+
+## Creator
 Tinashe Osewe
 
-## 安装程序
-访问描述中的链接
+## Program Setup
+Access the links in the description
 
-## 确认
-没有
+## Usage Instructions
+Press the down arrow to go to the game page. Write a number in the box to begin playing, and press reset to start again.
 
-## 音符
-该网站正在建设中
+## Confirm
+No
+
+## Notes
+The site is under construction
