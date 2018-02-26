@@ -27,8 +27,8 @@ Access the links in the description
 ## Usage Instructions
 Press the down arrow to go to the game page. Write a number in the box to begin playing, and press reset to start again.
 
-## Confirm
-No
+## Contributors
+Peter Muturi, James Muriuki
 
 ## Notes
 The site is under construction
