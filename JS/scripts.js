@@ -1,10 +1,7 @@
-$("#submit").click(function(){
-  $('#section2').gotoAnchor();
-  $("#reset").click();
-  return true;
-});
-
-var current_number = 0;
+$(document).ready(function(){
+    $('form#numberinput').submit(function(event){
+        event.preventDefault();
+        var current_number = 0;
 var interval = setInterval(document.getElementById("reset").onclick = function() {
     document.getElementById('number').innerHTML = ++current_number;
     if (current_number % 3 === 0){
@@ -21,3 +18,5 @@ var interval = setInterval(document.getElementById("reset").onclick = function()
         clearInterval(interval);
     }
 }, 1000);
+    });
+});
